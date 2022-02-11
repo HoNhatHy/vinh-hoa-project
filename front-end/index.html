@@ -32,179 +32,323 @@
     <title>VINH HOA - Cargill</title>
   </head>
   <body>
-    <section class="page">
-      <!-- <div class="search-box">
-        <h1 class="main-heading">Đại lý Vinh Hoa</h1>
-        <p class="main-heading-description">
-          Nhà phân phối thức ăn gia súc khu vực An Khê - Gia Lai
-        </p>
-        <form class="search-form" action="#">
+    <div class="container">
+      <header class="header grid--2--cols">
+        <div>
+          <h1 class="main-heading">Đại lý Vinh Hoa</h1>
+          <p class="description">
+            Nhà phân phối thức ăn gia súc khu vực An Khê - Gia Lai
+          </p>
+        </div>
+        <form action="#" class="header-form form">
           <input
             type="text"
-            class="search-text"
+            class="header-input input"
             placeholder="Nhập tên khách hàng"
           />
-          <button class="search-btn">
-            <ion-icon class="search-icon" name="search-outline"></ion-icon>
+          <button class="header-btn btn">
+            <ion-icon class="search-icon icon" name="search-outline"></ion-icon>
           </button>
         </form>
-      </div>
-      <div class="infor-box">
-        <ul class="customers-infor opacity">
-
-        </ul>
-      </div> -->
-      <!-- <header class="header">
-        <h1 class="header-heading">Đại lý Vinh Hoa</h1>
-        <p class="header-heading-description">
-          Nhà phân phối thức ăn gia súc khu vực An Khê - Gia Lai
-        </p>
-      </header> -->
-      <div class="main">
-        <div class="customer-detail">
-          <img
-            src="img/accounts/ho-nhat-hy.jpg"
-            alt="photo of customer"
-            class="detail-img"
-          />
-          <p class="detail-name">
-            <ion-icon class="list-icon" name="person-outline"></ion-icon>
-            <span>Ho Nhat Hy</span>
-          </p>
-          <p class="detail-phone-number">
-            <ion-icon class="list-icon" name="call-outline"></ion-icon>
-            <span>0905577176</span>
-          </p>
-        </div>
-        <div class="customer-movements">
-          <div class="movement">
-            <p class="movement-date">01/01/2022</p>
-            <p class="movement-quantity">
-              5 bao <span class="product-id product--9032">9032</span>
-            </p>
-            <p class="movement-date-money positive">+1.000.000</p>
+      </header>
+      <main class="main grid--2--cols">
+        <section class="search-results border-right">
+          <ul class="results grid--1--col opacity">
+            <!-- <li class="result grid--3--cols">
+              <img
+                src="img/accounts/ho-nhat-hy.jpg"
+                alt="photo of customers"
+                class="result-img"
+              />
+              <div class="result-infor grid--1--col">
+                <p class="result-name">
+                  <ion-icon class="icon" name="person-outline"></ion-icon>Ho
+                  Nhat Hy
+                </p>
+                <p class="result-phone">
+                  <ion-icon class="icon" name="call-outline"></ion-icon
+                  >0905577176
+                </p>
+              </div>
+            </li>
+            <li class="result grid--3--cols">
+              <img
+                src="img/accounts/ho-nhat-hy.jpg"
+                alt="photo of customers"
+                class="result-img"
+              />
+              <div class="result-infor grid--1--col">
+                <p class="result-name">
+                  <ion-icon class="icon" name="person-outline"></ion-icon>Ho
+                  Nhat Hy
+                </p>
+                <p class="result-phone">
+                  <ion-icon class="icon" name="call-outline"></ion-icon
+                  >0905577176
+                </p>
+              </div>
+            </li>
+            <li class="result grid--3--cols">
+              <img
+                src="img/accounts/ho-nhat-hy.jpg"
+                alt="photo of customers"
+                class="result-img"
+              />
+              <div class="result-infor grid--1--col">
+                <p class="result-name">
+                  <ion-icon class="icon" name="person-outline"></ion-icon>Ho
+                  Nhat Hy
+                </p>
+                <p class="result-phone">
+                  <ion-icon class="icon" name="call-outline"></ion-icon
+                  >0905577176
+                </p>
+              </div>
+            </li>
+            <li class="result grid--3--cols">
+              <img
+                src="img/accounts/ho-nhat-hy.jpg"
+                alt="photo of customers"
+                class="result-img"
+              />
+              <div class="result-infor grid--1--col">
+                <p class="result-name">
+                  <ion-icon class="icon" name="person-outline"></ion-icon>Ho
+                  Nhat Hy
+                </p>
+                <p class="result-phone">
+                  <ion-icon class="icon" name="call-outline"></ion-icon
+                  >0905577176
+                </p>
+              </div>
+            </li> -->
+          </ul>
+        </section>
+        <section class="summary grid--2--cols">
+          <div class="movements grid--1--cols">
+            <!-- <div class="movement grid--2--cols border-bottom">
+              <div class="movement-date">
+                01/01/2022
+                <ul class="date-infor opacity"></ul>
+              </div>
+              <div class="movement-date-money positive">1.000.000</div>
+            </div>
+            <div class="movement grid--2--cols border-bottom">
+              <div class="movement-date">
+                <span class="date"
+                  >02/01/2022
+                  <ul class="date-infor opacity"></ul>
+                </span>
+              </div>
+              <div class="movement-date-money negative">1.000.000</div>
+            </div>
+            <div class="movement grid--2--cols border-bottom">
+              <div class="movement-date">
+                <span class="date"
+                  >03/01/2022
+                  <ul class="date-infor opacity"></ul>
+                </span>
+              </div>
+              <div class="movement-date-money negative">1.000.000</div>
+            </div>
+            <div class="movement grid--2--cols border-bottom">
+              <div class="movement-date">
+                <span class="date"
+                  >04/01/2022
+                  <ul class="date-infor opacity"></ul>
+                </span>
+              </div>
+              <div class="movement-date-money positive">1.000.000</div>
+            </div>
+            <div class="movement grid--2--cols border-bottom">
+              <div class="movement-date">
+                <span class="date"
+                  >05/01/2022
+                  <ul class="date-infor opacity"></ul>
+                </span>
+              </div>
+              <div class="movement-date-money positive">1.000.000</div>
+            </div>
+            <div class="movement grid--2--cols border-bottom">
+              <div class="movement-date">
+                <span class="date"
+                  >06/01/2022
+                  <ul class="date-infor opacity"></ul>
+                </span>
+              </div>
+              <div class="movement-date-money negative">1.000.000</div>
+            </div>
+            <div class="movement grid--2--cols border-bottom">
+              <div class="movement-date">
+                <span class="date"
+                  >07/01/2022
+                  <ul class="date-infor opacity"></ul>
+                </span>
+              </div>
+              <div class="movement-date-money positive">1.000.000</div>
+            </div>
+            <div class="movement grid--2--cols border-bottom">
+              <div class="movement-date">
+                <span class="date"
+                  >08/01/2022
+                  <ul class="date-infor opacity"></ul>
+                </span>
+              </div>
+              <div class="movement-date-money negative">1.000.000</div>
+            </div>
+            <div class="movement grid--2--cols border-bottom">
+              <div class="movement-date">
+                <span class="date"
+                  >09/01/2022
+                  <ul class="date-infor opacity"></ul>
+                </span>
+              </div>
+              <div class="movement-date-money positive">1.000.000</div>
+            </div>
+            <div class="movement grid--2--cols border-bottom">
+              <div class="movement-date">
+                <span class="date"
+                  >10/01/2022
+                  <ul class="date-infor opacity"></ul>
+                </span>
+              </div>
+              <div class="movement-date-money positive">1.000.000</div>
+            </div> -->
           </div>
-          <div class="movement">
-            <p class="movement-date">01/01/2022</p>
-            <p class="movement-quantity">
-              5 bao <span class="product-id product--1922">1922</span>
-            </p>
-            <p class="movement-date-money positive">+1.000.000</p>
+          <div class="functions grid--1--col">
+            <button class="function-btn btn">Thêm nợ</button>
+            <button class="function-btn btn">Xóa nợ</button>
+            <button class="function-btn btn">Chỉnh sửa</button>
+            <button class="function-btn btn">Cập nhật giá bán</button>
+            <button class="function-btn btn">Thêm sản phẩm</button>
           </div>
-          <div class="movement">
-            <p class="movement-date">01/01/2022</p>
-            <p class="movement-date-money negative">-1.000.000</p>
+          <div class="movement-total grid--2--cols">
+            <!-- <div>Tổng cộng</div>
+            <div class="movements-money justify--end positive">6.000.000</div>
+            <button class="watch-all btn">Xem tất cả</button> -->
           </div>
-          <div class="movement">
-            <p class="movement-date">01/01/2022</p>
-            <p class="movement-quantity">
-              5 bao <span class="product-id product--1052">1052</span>
-            </p>
-            <p class="movement-date-money positive">+1.000.000</p>
-          </div>
-          <div class="movement">
-            <p class="movement-date">01/01/2022</p>
-            <p class="movement-quantity">
-              5 bao <span class="product-id product--1102">1102</span>
-            </p>
-            <p class="movement-date-money positive">+1.000.000</p>
-          </div>
-          <div class="movement-total">
-            <p>Tổng cộng</p>
-            <p class="positive">+4.000.000</p>
-          </div>
-
-          <button class="function-btn">Xem tất cả</button>
-        </div>
-        <div class="function">
-          <button class="function-btn function-add">Thêm nợ</button>
-          <button class="function-btn function-delete">Trả nợ</button>
-          <button class="function-btn function-modify-movement">
-            Sửa nếu nhập sai
-          </button>
-          <button class="function-btn function-update-price">
-            Cập nhật giá bán
-          </button>
-          <button class="function-btn function-add-product">
-            Thêm sản phẩm</button
-          ><button class="function-btn function-modify-user">
-            Chỉnh sửa thông tin khách hàng
-          </button>
-        </div>
-      </div>
-    </section>
-    <section class="modal-function">
-      <div class="modal-header">
-        <span class="modal-title">Thêm nợ</span>
-        <button class="modal-close">
-          <ion-icon class="close-icon" name="close-outline"></ion-icon>
-        </button>
-      </div>
-      <div class="add-main">
-        <div class="add-main-form">
-          <form action="#" class="add-form">
+        </section>
+      </main>
+    </div>
+    <div class="tn function opacity">
+      <header class="function-header grid--2--cols">
+        <span class="function-title">Thêm nợ</span>
+        <span class="close-btn">
+          <ion-icon class="close-icon icon" name="close-outline"></ion-icon>
+        </span>
+      </header>
+      <main class="function-content grid--2--cols">
+        <ul class="tn-quantity">
+          <li class="tn-quantity-import grid--3--cols">
             <input
               type="text"
-              id="input-add"
-              class="form-add-input"
+              class="tn-input input"
               placeholder="Nhập số lượng"
             />
-            <select name="product-ids" class="form-add-select" id="select-add">
-              <option class="option" value="">Chọn mã sản phẩm</option>
-              <option class="option product--9032" value="9032">9032</option>
-              <option class="option product--1922" value="1922">1922</option>
-              <option class="option product--1052" value="1052">1052</option>
-              <option class="option product--1102" value="1102">1102</option>
+            <select name="" class="tn-select">
+              <option class="tn-option" value="">Mã sản phẩm</option>
+              <option class="tn-option product--1702" value="1702">1702</option>
+              <option class="tn-option product--1912" value="1912">1912</option>
+              <option class="tn-option product--1012" value="1012">1012</option>
+              <option class="tn-option product--1922" value="1922">1922</option>
+              <option class="tn-option product--9032" value="9032">9032</option>
+              <option class="tn-option product--9032ip" value="9032ip">
+                9032ip
+              </option>
+              <option class="tn-option product--1032" value="1032">1032</option>
+              <option class="tn-option product--1102" value="1102">1102</option>
+              <option class="tn-option product--1202" value="1202">1202</option>
+              <option class="tn-option product--1442" value="1442">1442</option>
+              <option class="tn-option product--1042" value="1042">1042</option>
+              <option class="tn-option product--1052" value="1052">1052</option>
+              <option class="tn-option product--1002" value="1002">1002</option>
+              <option class="tn-option product--1680" value="1680">1680</option>
+              <option class="tn-option product--5101" value="5101">5101</option>
+              <option class="tn-option product--5312" value="5312">5312</option>
+              <option class="tn-option product--4452" value="4452">4452</option>
             </select>
-            <button class="modal-function-btn">Thêm</button>
-          </form>
+            <button class="more-option">
+              <ion-icon class="plus-icon" name="add-outline"></ion-icon>
+            </button>
+          </li>
+        </ul>
+        <div class="tn-count-price grid--1--col">
+          <div class="movement-date">
+            <span class="date">10/01/2022 </span>
+          </div>
 
-          <button class="more-option">
-            <ion-icon class="icon" name="add-circle-outline"></ion-icon>
-          </button>
+          <div class="tn-prices">
+            <div class="movement grid--3--cols border-bottom">
+              <p class="movement-quantity">5</p>
+              <p class="product-id product--1702">1702</p>
+              <p class="movement-date-money positive">1.000.000</p>
+            </div>
+            <div class="movement grid--3--cols border-bottom">
+              <p class="movement-quantity">5</p>
+              <p class="product-id product--1102">1102</p>
+              <p class="movement-date-money positive">1.000.000</p>
+            </div>
+            <div class="movement grid--3--cols border-bottom">
+              <p class="movement-quantity">5</p>
+              <p class="product-id product--1012">1012</p>
+              <p class="movement-date-money positive">1.000.000</p>
+            </div>
+            <div class="movement grid--3--cols border-bottom">
+              <p class="movement-quantity">5</p>
+              <p class="product-id product--1922">1922</p>
+              <p class="movement-date-money positive">1.000.000</p>
+            </div>
+            <div class="movement grid--3--cols border-bottom">
+              <p class="movement-quantity">5</p>
+              <p class="product-id product--1912">1912</p>
+              <p class="movement-date-money positive">1.000.000</p>
+            </div>
+            <div class="movement grid--3--cols border-bottom">
+              <p class="movement-quantity">5</p>
+              <p class="product-id product--1202">1202</p>
+              <p class="movement-date-money positive">1.000.000</p>
+            </div>
+          </div>
+          <div class="movement-total grid--2--cols">
+            <div>Tổng cộng</div>
+            <div class="movements-money positive">6.000.000</div>
+          </div>
         </div>
-        <div class="customer-movements">
-          <div class="movement">
-            <p class="movement-date">01/01/2022</p>
-            <p class="movement-quantity">
-              5 bao <span class="product-id product--9032">9032</span>
-            </p>
-            <p class="movement-date-money positive">+1.000.000</p>
+      </main>
+      <footer class="tn-footer grid--2--cols">
+        <button class="tn-footer-btn footer--btn btn">Tính tiền</button>
+        <button class="tn-footer-btn footer--btn btn">Lưu</button>
+      </footer>
+    </div>
+    <div class="xn function opacity">
+      <header class="function-header grid--2--cols">
+        <span class="function-title">Xóa nợ</span>
+        <span class="close-btn">
+          <ion-icon class="close-icon icon" name="close-outline"></ion-icon>
+        </span>
+      </header>
+      <main class="function-content">
+        <div class="xn-content">
+          <div class="movement-total grid--2--cols">
+            <div>Nợ trước</div>
+            <div class="justify--end positive">6.000.000</div>
+            <label for="xn-input">Nhập số tiền trả</label>
+            <input
+              id="xn-input"
+              class="xn-input justify--end input"
+              type="text"
+              placeholder="Nhập"
+            />
+            <div>Nợ trước</div>
+            <div class="xn-remain-money justify--end positive">5.000.000</div>
           </div>
-          <div class="movement">
-            <p class="movement-date">01/01/2022</p>
-            <p class="movement-quantity">
-              5 bao <span class="product-id product--1922">1922</span>
-            </p>
-            <p class="movement-date-money positive">+1.000.000</p>
-          </div>
-          <div class="movement">
-            <p class="movement-date">01/01/2022</p>
-            <p class="movement-date-money negative">-1.000.000</p>
-          </div>
-          <div class="movement">
-            <p class="movement-date">01/01/2022</p>
-            <p class="movement-quantity">
-              5 bao <span class="product-id product--1052">1052</span>
-            </p>
-            <p class="movement-date-money positive">+1.000.000</p>
-          </div>
-          <div class="movement">
-            <p class="movement-date">01/01/2022</p>
-            <p class="movement-quantity">
-              5 bao <span class="product-id product--1102">1102</span>
-            </p>
-            <p class="movement-date-money positive">+1.000.000</p>
-          </div>
-          <div class="movement-total">
-            <p>Tổng cộng</p>
-            <p class="positive">+4.000.000</p>
-          </div>
-          <button class="function-btn">Lưu</button>
         </div>
-      </div>
-    </section>
-    <div class="overlay"></div>
+      </main>
+      <footer class="xn-footer">
+        <button class="xn-footer-btn footer--btn btn">Lưu</button>
+      </footer>
+    </div>
+    <div class="overlay hidden"></div>
   </body>
 </html>
 
@@ -231,28 +375,31 @@ Paragraph default: 1.6
 
 --- 02 COLORS
 
-- Primary: #2b8a3e
+- Primary: 
+#226e32
+#2b8a3e
+#b2f2bb
+#d3f9d8
 - Tints:
-#6dbb7c
-#f8f9fa
+
 
 
 - Shades: 
 
 - Accents:
-- Greys
-
-#343a40
+- Greys:
 #333
+#343a40
+#dee2e6
+#f1f3f5
+#f8f9fa
 
 --- 05 SHADOWS
-0px 1px 10px rgba(0, 0, 0, 0.1);
-0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
 
 --- 06 BORDER-RADIUS
 
-Default: 1rem
-Medium: 1.2rem
+
 
 --- 07 WHITESPACE
 
